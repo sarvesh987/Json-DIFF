@@ -1,0 +1,111 @@
+[ {
+  "op" : "replace",
+/  "path" : "/Entitlements/?/Entitlement Name",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "121",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+5    "Entitlement Name" : "144~Network Security Role"
+  }
+}, {
+  "op" : "replace",
+.  "path" : "/Entitlements/?/Application Key",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "121",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+5    "Entitlement Name" : "144~Network Security Role"
+  }
+}, {
+  "op" : "add",
+  "path" : "/Entitlements/-",
+  "value" : {
+    "Application Key" : "562",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+1    "Entitlement Name" : "565~Deployment Owners"
+  }
+}, {
+  "op" : "add",
+  "path" : "/Entitlements/-",
+  "value" : {
+    "Application Key" : "562",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+1    "Entitlement Name" : "565~Deployment Owners"
+  }
+}, {
+  "op" : "replace",
+.  "path" : "/Entitlements/?/Application Key",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "562",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+1    "Entitlement Name" : "565~Deployment Owners"
+  }
+}, {
+  "op" : "remove",
+  "path" : "/Entitlements/?",
+  "original_value " : {
+    "Application Key" : "122",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+6    "Entitlement Name" : "144~Network Security Role2"
+  }
+}, {
+  "op" : "remove",
+  "path" : "/Entitlements/?",
+  "original_value " : {
+    "Application Key" : "122",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+6    "Entitlement Name" : "144~Network Security Role2"
+  }
+}, {
+  "op" : "replace",
+/  "path" : "/Entitlements/?/Entitlement Name",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "100",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+2    "Entitlement Name" : "565~Deployment Owners",
++    "Entitlement Key" : "askjdhfiegig02k",
+    "Additional Info" : "test"
+  }
+}, {
+  "op" : "replace",
+.  "path" : "/Entitlements/?/Application Key",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "100",
+-    "Entitlement Type" : "UD_GROUPS_GROUPS",
+2    "Entitlement Name" : "565~Deployment Owners",
++    "Entitlement Key" : "askjdhfiegig02k",
+    "Additional Info" : "test"
+  }
+}, {
+  "op" : "replace",
+"  "path" : "/?/Role Owner Login",
+  "value" : "updated",
+  "original_value" : {
+,    "Role Display Name" : "Test Role Pset",
+!    "Role Category" : "Default",
+$    "Role Name" : "Test Role Pset",
++    "Role Description" : "Test Role Pset",
+#    "Organization" : "Confluxsys",
+"    "Role Owner Login" : "PBULE",
+    "Role ID" : "14350",
+    "$identifier" : "14350",
+    "Entitlements" : [ {
+!      "Application Key" : "121",
+/      "Entitlement Type" : "UD_GROUPS_GROUPS",
+7      "Entitlement Name" : "144~Network Security Role"
+	    }, {
+!      "Application Key" : "562",
+/      "Entitlement Type" : "UD_GROUPS_GROUPS",
+3      "Entitlement Name" : "565~Deployment Owners"
+	    }, {
+!      "Application Key" : "100",
+/      "Entitlement Type" : "UD_GROUPS_GROUPS",
+4      "Entitlement Name" : "565~Deployment Owners",
+-      "Entitlement Key" : "askjdhfiegig02k",
+!      "Additional Info" : "test"
+    } ]
+  }
+} ]

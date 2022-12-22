@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.fge.jsonpatch.diff.UnchangedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-22T09:48:39" hostname="Sarvesh.local" time="0.198">
+  <properties/>
+  <testcase name="testCase1" classname="com.github.fge.jsonpatch.diff.UnchangedTest" time="0.198"/>
+  <system-out><![CDATA[[ {
+  "op" : "replace",
+  "path" : "/Entitlements/?/Entitlement Name",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "121",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "144~Network Security Role"
+  }
+}, {
+  "op" : "replace",
+  "path" : "/Entitlements/?/Application Key",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "121",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "144~Network Security Role"
+  }
+}, {
+  "op" : "add",
+  "path" : "/Entitlements/-",
+  "value" : {
+    "Application Key" : "562",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "565~Deployment Owners"
+  }
+}, {
+  "op" : "add",
+  "path" : "/Entitlements/-",
+  "value" : {
+    "Application Key" : "562",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "565~Deployment Owners"
+  }
+}, {
+  "op" : "replace",
+  "path" : "/Entitlements/?/Application Key",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "562",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "565~Deployment Owners"
+  }
+}, {
+  "op" : "remove",
+  "path" : "/Entitlements/?",
+  "original_value " : {
+    "Application Key" : "122",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "144~Network Security Role2"
+  }
+}, {
+  "op" : "remove",
+  "path" : "/Entitlements/?",
+  "original_value " : {
+    "Application Key" : "122",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "144~Network Security Role2"
+  }
+}, {
+  "op" : "replace",
+  "path" : "/Entitlements/?/Entitlement Name",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "100",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "565~Deployment Owners",
+    "Entitlement Key" : "askjdhfiegig02k",
+    "Additional Info" : "test"
+  }
+}, {
+  "op" : "replace",
+  "path" : "/Entitlements/?/Application Key",
+  "value" : "updated",
+  "original_value" : {
+    "Application Key" : "100",
+    "Entitlement Type" : "UD_GROUPS_GROUPS",
+    "Entitlement Name" : "565~Deployment Owners",
+    "Entitlement Key" : "askjdhfiegig02k",
+    "Additional Info" : "test"
+  }
+}, {
+  "op" : "replace",
+  "path" : "/?/Role Owner Login",
+  "value" : "updated",
+  "original_value" : {
+    "Role Display Name" : "Test Role Pset",
+    "Role Category" : "Default",
+    "Role Name" : "Test Role Pset",
+    "Role Description" : "Test Role Pset",
+    "Organization" : "Confluxsys",
+    "Role Owner Login" : "PBULE",
+    "Role ID" : "14350",
+    "$identifier" : "14350",
+    "Entitlements" : [ {
+      "Application Key" : "121",
+      "Entitlement Type" : "UD_GROUPS_GROUPS",
+      "Entitlement Name" : "144~Network Security Role"
+    }, {
+      "Application Key" : "562",
+      "Entitlement Type" : "UD_GROUPS_GROUPS",
+      "Entitlement Name" : "565~Deployment Owners"
+    }, {
+      "Application Key" : "100",
+      "Entitlement Type" : "UD_GROUPS_GROUPS",
+      "Entitlement Name" : "565~Deployment Owners",
+      "Entitlement Key" : "askjdhfiegig02k",
+      "Additional Info" : "test"
+    } ]
+  }
+} ]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
